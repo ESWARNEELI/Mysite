@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eswar Neeli - Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: 'MV Boli', cursive;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      background-image: url('https://img.freepik.com/free-photo/anime-car-city_23-2151710998.jpg?t=st=1744605709~exp=1744609309~hmac=19dc017b8f600080e4613a51e6f8043cba7501e4a699a4cc193faecfbbdf6fdf&w=1380');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: black;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1rem;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin: 1.5rem 0;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      font-family: 'MV Boli', cursive;
+      text-decoration: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      color: white;
+    }
+
+    .linkedin { background-color: #0077b5; }
+    .github { background-color: #333; }
+    .leetcode { background-color: #f89f1b; color: #000; }
+
+    .button:hover {
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 1.5rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.95);
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .sub-title {
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+
+    .date {
+      font-style: italic;
+      color: gray;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ESWAR NEELI</h1>
+    <p>Full Stack Web Developer | Skilled in React, Node.js, and API Integration | Experienced in Cloud Deployment and Scalable Web Solutions</p>
+    <div class="links">
+      <a href="https://www.linkedin.com/in/eswarneeli/" class="button linkedin" target="_blank">LinkedIn</a>
+      <a href="https://github.com/ESWARNEELI" class="button github" target="_blank">GitHub</a>
+      <a href="https://leetcode.com/u/Eswar_neeli/" class="button leetcode" target="_blank">LeetCode</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <div class="card">
+      <p>As a dedicated Full Stack Web Developer, I specialize in crafting responsive and scalable web applications using Html, Css, Js, and MySQL. With a strong foundation in both front-end and back-end development, my experience as an intern at Zscaler has honed my skills in cloud technologies and security.</p>
+    </div>
+
+    <h2>Experience</h2>
+    <div class="card">
+      <p class="sub-title">Student</p>
+      <p>Smart Interviews, India</p>
+      <p class="date">January 2025 – Present</p>
+
+      <p class="sub-title">GOOGLE ANDROID DEVELOPER VIRTUAL INTERNSHIP</p>
+      <p>Google</p>
+      <p class="date">January 2025 – March 2025</p>
+
+      <p class="sub-title">AWS CLOUD VIRTUAL INTERNSHIP</p>
+      <p>AWS</p>
+      <p class="date">October 2024 – December 2024</p>
+
+      <p class="sub-title">ZSCALER ZERO TRUST CLOUD SECURITY VIRTUAL INTERNSHIP</p>
+      <p>Zscaler</p>
+      <p class="date">July 2024 – September 2024</p>
+    </div>
+
+    <h2>Education</h2>
+    <div class="card">
+      <p class="sub-title">CSE (B.Tech)</p>
+      <p>Raghu Engineering College</p>
+      <p class="date">January 2023 – Present</p>
+
+      <p class="sub-title">Intermediate - Narayana Junior College</p>
+      <p>Board Of Intermediate Education, AP</p>
+      <p class="date">January 2020 – December 2022</p>
+
+      <p class="sub-title">10 GPA</p>
+      <p>The Board Of Secondary Education Of Andhra Pradesh</p>
+    </div>
+  </section>
+
+  <footer>
+    Thank you!
+  </footer>
+</body>
+</html>
